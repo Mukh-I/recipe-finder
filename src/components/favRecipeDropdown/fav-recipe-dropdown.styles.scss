@@ -1,0 +1,14 @@
+.dropdown {
+  box-shadow: -8px 5px 5px rgba(77, 77, 77, 0.411);
+  position: absolute;
+  right: 5px;
+  top: 65px;
+  z-index: 20;
+  min-width: 400px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 360px;
+  overflow: auto;
+  background-color: #f1f1f1;
+}

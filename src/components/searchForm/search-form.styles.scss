@@ -1,0 +1,38 @@
+.search-form {
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+
+  input {
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    padding: 5px 24px;
+    width: 482px;
+    font-size: 1rem;
+
+    &:focus {
+      outline: none;
+      border: 1px solid grey;
+    }
+  }
+
+  button {
+    border-radius: 24px;
+    background-color: rgb(241, 199, 8);
+    height: 44px;
+    padding: 5px 24px;
+    color: white;
+    margin-left: 5px;
+    border: none;
+    transition: 0.5s ease;
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      background-color: rgb(230, 114, 20);
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.dropdown-recipe-card {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 8px 5px 5px rgba(77, 77, 77, 0.411);
+  padding: 5px;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 4px;
+
+  .img-container {
+    width: 150px;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .heading {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
