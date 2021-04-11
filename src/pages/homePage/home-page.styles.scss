@@ -8,11 +8,11 @@
   background-size: cover;
 
   &__content-wrapper {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgba(241, 198, 8, 0.329);
+    //border: 1px solid rgba(241, 198, 8, 0.329);
     padding: 2rem;
 
     @media (max-width: 671px) {
@@ -37,7 +37,7 @@
 
   &__title {
     font-size: 2rem;
-    font-weight: 300;
+    //font-weight: 300;
     color: white;
     margin-bottom: 7px;
     text-transform: uppercase;
@@ -53,6 +53,7 @@
     margin-top: 2px;
     font-weight: 300;
     letter-spacing: 2px;
+    font-size: 1.6rem;
   }
 
   &__cta {
