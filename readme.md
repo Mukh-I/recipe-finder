@@ -2,12 +2,12 @@
 
 This is an app that allows users to search and save their favourite recipes.
 
-## Technologies used:
+### Technologies used:
 
-- React
-- React-router-dom
-- materialui
+  - React
+  - React-router-dom
+  - materialui
 
-## application state:
+### application state:
 
-- useReducer & context api
+  - useReducer & context api
